@@ -1,5 +1,41 @@
 apiVersion: v1
 entries:
+  k8s-m8g-stack:
+  - apiVersion: v2
+    created: "2020-10-12T18:19:07.536908805+02:00"
+    dependencies:
+    - condition: kube-prometheus-stack.enabled
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 9.4.*
+    - condition: loki-stack.enabled
+      name: loki-stack
+      repository: https://grafana.github.io/loki/charts
+      version: 0.40.*
+    - condition: k8s-m8g.enabled
+      name: k8s-m8g
+      repository: https://nexus.ifne.eu/repository/ifne-helm-public/
+      version: 1.0.*
+    description: An umbrella helm chart for Kubernetes monitoring based on kube-prometheus-stack,
+      loki-stack and k8s-m8g.
+    digest: eca570e1e83bd230aad61fd9f10f3fdb9784fcf078f7cd5d6cbde04f1997bf99
+    home: https://git.ifne.eu/dnation/k8s-m8g-stack
+    icon: https://storage.googleapis.com/ifne.eu/public/dNation_k8s_m8g_logo.png
+    keywords:
+    - kubernetes
+    - monitoring
+    - prometheus
+    - grafana
+    - loki
+    maintainers:
+    - email: admin@dNation.tech
+      name: dNation
+    name: k8s-m8g-stack
+    sources:
+    - https://git.ifne.eu/dnation/k8s-m8g-stack
+    urls:
+    - https://matofeder.github.io/helm-repo/k8s-m8g-stack-1.0.17.tgz
+    version: 1.0.17
   test:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -14,4 +50,4 @@ entries:
     urls:
     - https://matofeder.github.io/helm-repo/test-1.0.24.tgz
     version: 1.0.24
-generated: "2020-10-12T18:16:22.178531289+02:00"
+generated: "2020-10-12T18:19:07.504718353+02:00"
