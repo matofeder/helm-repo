@@ -4,6 +4,7 @@ description: A chart repo for storing charts.
 theme: jekyll-theme-minimal
 url: "https://matofeder.github.io/helm-repo/"
 repo_name: helm-repo
+logo: https://storage.googleapis.com/ifne.eu/public/icons/dnation.png
 
 exclude:
   - Gemfile
