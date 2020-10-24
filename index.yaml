@@ -3,10 +3,10 @@ entries:
   dnation-kubernetes-monitoring:
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2020-10-24T15:12:30.273603555Z"
+    created: "2020-10-24T15:17:21.936879211Z"
     description: A set of Grafana dashboards and Prometheus alerts to cover Kubernetes
       monitoring in an easy way using a drill-down principle.
-    digest: 02bd17da23751801db4a40191a9d328917c1dcfcdbfedcb14d95b5e56f59c84d
+    digest: 61de920e29bfd2c5c1dc227b246abe28a251c0cbf8eca4e7376b9b9738abb00f
     home: https://dnation.cloud
     icon: https://storage.googleapis.com/ifne.eu/public/icons/dnation_k8sm8g.png
     keywords:
@@ -111,4 +111,4 @@ entries:
     urls:
     - https://matofeder.github.io/helm-repo/test-1.0.24.tgz
     version: 1.0.24
-generated: "2020-10-24T15:12:30.272686447Z"
+generated: "2020-10-24T15:17:21.93648341Z"
