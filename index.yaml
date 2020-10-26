@@ -61,6 +61,19 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2020-10-26T08:06:06.922924227Z"
+    description: HELM TEST.
+    digest: b13069d0e848960bc23c0004f537f2ef6a217afbbf7352ed06e6614f626a04dd
+    home: https://github.com/matofeder/helm-test
+    maintainers:
+    - email: admin@dNation.tech
+      name: dNation
+    name: test
+    urls:
+    - https://matofeder.github.io/helm-repo/test-1.1.32.tgz
+    version: 1.1.32
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2020-10-13T07:30:03.862636621Z"
     description: HELM TEST.
     digest: 569b2bf4639a100d0b89a5b73ab2e704ed9e023c858d078339292b679f316888
@@ -111,4 +124,4 @@ entries:
     urls:
     - https://matofeder.github.io/helm-repo/test-1.0.24.tgz
     version: 1.0.24
-generated: "2020-10-24T15:17:21.93648341Z"
+generated: "2020-10-26T08:06:06.92203772Z"
